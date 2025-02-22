@@ -1,0 +1,3 @@
+# Uncommon Stack Overflow in Recursive Function
+
+This repository demonstrates a subtle stack overflow error in a seemingly simple recursive JavaScript function. The function `foo` aims to calculate something based on the inputs `a` and `b`, but it lacks a proper base case to stop the recursion when `a` and `b` are not both zero.  For inputs where both a and b aren't simultaneously 0 it will cause stack overflow. This example highlights the importance of carefully considering all possible input scenarios when designing recursive algorithms. 
